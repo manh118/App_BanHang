@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+.QT{
+	display: inline-flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.QT_Box_1{
+	width: 20%;
+	background-color: #B4AA69;
+	height: 1000px;
+	margin-top: -8px;
+	margin-left: -8px;
+	padding-top: 5px;
+}
+
+
+.QT_DienTT{
+	margin-left: 20px;
+	width: 75%;
+}
+
+.QT_body{
+	font-size: 20px;
+	margin-top: 100px;
+}
+
+.QuanLi_SP , .QuanLi_TinTuc , .QuanLi_taikhoan, .QuanLi_donhang {
+	text-align: center;
+	padding: 20px;
+	border: 1px solid;
+	border-color: #000000;
+}
+.QuanLi_Loai_Sp{
+	text-align: center;
+	padding: 20px;
+	border: 1px solid;
+	border-color: #000000;
+	font-size: 20px;
+	border-top: 2px solid;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+.QT_Box_1 h1{
+	margin: 0;
+	margin-top: 20px;
+	
+}
+
+th{
+	text-align: center;
+}
