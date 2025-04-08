@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+.DNTK{
+	background-image: url(https://bizweb.dktcdn.net/100/434/558/themes/894884/assets/bg-breadcrumb.jpg?1651395726340);
+	height:100px;
+	text-align: center;
+	position: relative;
+	
+}
+.text-content{
+	position: absolute;
+	margin-top: 20px;
+	color: #B7B7B7;
+	width: 100%;
+}
+.DNTK .text2 {
+	margin-top: 10px;
+	
+}
+
+.DNTK .text1 {
+	
+		
+}
+.Bang1{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+    border: 3px solid #ccc; /* Định dạng viền khung */
+    width: 600px; /* Định dạng chiều rộng */
+    padding: 10px; /* Định dạng khoảng cách giữa nội dung và viền */
+	height: 630px;
+	border-color: #AFAFAF;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.Bang{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+    border: 3px solid #ccc; /* Định dạng viền khung */
+    width: 600px; /* Định dạng chiều rộng */
+    padding: 10px; /* Định dạng khoảng cách giữa nội dung và viền */
+	height: 450px;
+	border-color: #AFAFAF;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.BangDN{
+	border: 2px solid;
+	border-top: thin;
+	border-left: thin;
+	border-right: thin;
+    width: 100%; /* Định dạng chiều rộng */
+    padding: 5px; /* Định dạng khoảng cách giữa nội dung và viền */
+	height: 35px;
+	text-align: center;
+	border-bottom-color: #6B6969
+}
+
+.form-control{
+	border-radius: 10px;
+}
+
+.btn{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.body-text{
+		color: #000000;
+}
+.box2{
+	width: 92px;
+	height: 92px;
+	background-color: #9C8350;
+	position: absolute;
+	border-radius: 10px;	
+	top: -15px;
+	right: 15px;
+	text-align: center;
+	display: block;
+}
+
+
+.box2_item{
+	display: block 
+}
+.box1{
+	width: 370px;
+	height: 370px;
+/*	background-image: url("../img/t1.webp");*/
+	position: relative;
+}
+
+.box2_item {
+	font-size: 24px; 
+	margin-top: 5px;
+	color: aliceblue;
+}
+.body_2{
+	margin-top: 10px;
+}
+
+.body_1_img {
+	padding: 30px;
+	margin-left: 150px;
+}
+
+
+.body_1_text{
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 50px;
+}
+
+.BangDN a{
+	text-decoration: none;
+}
+
+
+
+

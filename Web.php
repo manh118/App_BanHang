@@ -12,8 +12,8 @@
 
 	</style>
 	
-				<link rel="stylesheet" href="../css/Style.css">
-
+				<link rel="stylesheet" href="QuanTri/1.css">
+				<link rel="stylesheet" href="css/Style.css">
 	<style>
 		.Mau1{
 			color: #9c8350;

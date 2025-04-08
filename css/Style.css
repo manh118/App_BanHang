@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.navbar-nav li a{
+	line-height: 40px;
+	padding: 0 15px;
+}
+.navbar-nav li:hover a{
+	color: #8F6000 !important;
+	
+}
+
+.dropdown-menu  li a{
+	color: #000000;
+
+}
+.dropdown-menu li a:hover{
+	color: #8F6000;
+}
+
+.dropdown-menu ul {
+	display: inline-block;
+	
+}
+
+.box{
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	display: inline-block
+	
+}
+
+.MyFooter ul>li>a{
+	text-decoration: none;
+	color: #A2A2A2;
+}
+
+.textbox {
+	margin-left: 50px;
+    border: 1px solid #ccc; /* Định dạng viền khung */
+    width: 200px; /* Định dạng chiều rộng */
+    padding: 5px; /* Định dạng khoảng cách giữa nội dung và viền */
+	height: 35px;
+    border-radius: 20px; /* Định dạng góc cong của khung */
+}
+
+ .textbox1 {
+	margin-left: 50px;
+    border: 3px solid #ccc; /* Định dạng viền khung */
+    width: 1100px; /* Định dạng chiều rộng */
+    padding: 10px; /* Định dạng khoảng cách giữa nội dung và viền */
+	height: 450px;
+    border-radius: 20px; /* Định dạng góc cong của khung */
+	border-color: #E2080C;
+	margin-left: auto;
+    margin-right: auto;
+}
+    
+.textbox2 {
+	background-color: #E2080C;
+    border: 1px solid #ccc; /* Định dạng viền khung */
+    width: 200px; /* Định dạng chiều rộng */
+    padding: 5px; /* Định dạng khoảng cách giữa nội dung và viền */
+	height: 20px;
+    border-radius: 20px; /* Định dạng góc cong của khung */	
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.pagination{
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+	list-style: none;
+	margin-top: 28px;
+}
+
+.pagination-item{
+	margin: 0 8px;
+	
+}
+
+
+
+.pagination-item--active .pagination-item_link{
+	color: aliceblue;
+	background-color:#B94607;
+}
+
+.pagination-item_link{
+	display: block;
+	text-decoration: none;
+	font-size: 1.3rem;
+	color: #000000;
+	min-width: 40px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 5px;
+}	
+	
+/* MyMainmenu*/	
+	
+.MyMainmenu-content{
+	width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.MyMainmenu .col-md-2{
+	
+	margin-left: 12px;
+	
+	
+}
+
+
+.MyHeader{
+		width: 100%;
+		background-color:#2E2E2E;	
+		}
+
+.MyMenu{
+	background-color: #B0B0B0;
+	height: 100px;
+	margin-top: 76px;
+	
+}
+.MyMenu-body{
+	width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.MyMenu-ds{
+	float: left;
+}
+.MyMenu-Des{
+	float: left;
+	padding: 0 50px;
+}
+.MyMenulink{
+	float: left;
+	margin-left: 100px;
+}
+.clear{
+	clear: both;
+}
+
+.s6{
+	margin-top: 50px;
+	display: inline-flex;
+	width: 100%;
+	background-image: url(https://bizweb.dktcdn.net/100/434/558/themes/894884/assets/bg_dich_vu_chung_toi.jpg?1651395726340);
+}
+.s6-1{
+	margin-left: 275px;
+	margin-top: 90px;
+	color: #494949;
+	font-weight: bold;
+}
+.s6-1-1{
+	font-size: 33px;
+	
+}
+.s6-1-2{
+	margin-top: 40px;
+	font-size: 20px;
+}
+
+.s6-2{
+	margin-left: 150px;
+}
+
+
+
+.body-1{
+	padding: 0 150px;
+	margin-top: 20px;
+
+}
+
+.col-4 .body-text{
+	text-align: justify;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+.MyManicontent  p{
+	color: #000000;
+}
+
+
+.MyHeader .form-control{
+	width: 200px;
+}
+
+.table-bordered td{
+	align-content: center;
+}
+
+.noidung{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify; 
+}
+
+.noidung pre{
+	 font-family: Arial, sans-serif;
+	font-size: 20px;
+}
+
+
+

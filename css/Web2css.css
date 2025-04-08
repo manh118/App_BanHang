@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+
+.MyMainmenu{
+	border-bottom: 1px solid #000000;
+}
+.MyManicontent{
+	width: 95%;
+	margin: 0 auto;
+}
+.Om{
+	
+	height: auto;
+	width: 100%;
+	
+}
+
+.sidebar{
+	height: 390px;
+	width: 20%;
+	float: left;
+}
+
+.Hienthi{
+	height: auto;
+	width: 79%;
+	float: right;
+	
+}
+
+ul.pproduct_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.list_sidebar{
+	list-style: none;
+}
+.sidebar li{
+	padding: 5px;
+	margin-left: 40px;
+	list-style: none;
+}
+
+ul.product_list_all {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.product_list_all .tieude{
+	text-align: center;
+}
+.Hienthi li{
+	list-style: none;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.Hienthi li p{
+	text-align: center;
+	color: red;
+}
+.Hienthi li img{
+	border: 1px solid #000000;
+}
+
+.clear{
+	clear: both;
+}
+.list_sidebar li {
+    padding: 2px;
+    margin-left: 20px;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.title_product{
+	text-align: center;
+}
+a:hover{
+	opacity: 60%;
+	color: #000000;
+}
+.san_pham{
+	height: auto;
+	width: 100%;
+	margin: 20px 0 20px 200px;
+	
+	
+}
+.img_sanpham{
+	float: left;
+	width: 25%;
+	border: 1px solid #A5A5A5;
+	
+}
+.chitiet_sanpham{
+	float: left;
+	width: 49%;
+	margin-left: 20px;
+}
+.chitiet_sanpham p{
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+.quantity-container {
+    display: flex;
+    align-items: center;
+	margin-top: 10px;
+}
+
+.quantity-btn {
+    width: 30px;
+    height: 30px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+	border-radius: 5px;
+}
+
+.quantity-btn:hover {
+    background-color: #ccc;
+}
+
+.quantity-input {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 0 5px;
+	border-radius: 5px;
+}
+
+.add_giohang{
+	margin-top: 40px;
+	background-color: #9c8350;
+	color: #FFFFFF;
+	padding: 10px 25px;
+	border-radius: 5px;
+	border: #FFFFFF;
+}
+
+.box_giaohang{
+	width: 100px;
+	height: 100px;
+	border: 1px solid #000000;
+	float: left;
+}
+
