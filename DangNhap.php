@@ -12,8 +12,8 @@
 
 	</style>
 	
-				<link rel="stylesheet" href="../css/Style.css">
-				<link rel="stylesheet" href="../css/DangNhap-CSS.css">
+				<link rel="stylesheet" href="css/Style.css">
+				<link rel="stylesheet" href="css/DangNhap-CSS.css">
 
 	<style>
 		.Mau1{

@@ -115,54 +115,6 @@
 <!--	margin-top:75.41px;-->
 	<div class="MyMainmenu-content" style="">
 		<div class="row">
-<!--
-			<div class="col-2">					
-				<div class="dropdown">
-					  <a class="btn  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #B49C56; padding-bottom: 10px" >
-						<i class="fa-solid fa-bars" style="color: #000000"></i>&nbsp;&nbsp;Danh mục sản phẩm</a>
-
-					  <ul class="dropdown-menu" style="width: 740px; " >						
-							<ul style="margin-bottom: 20px" type="none"><b>VPP Học sinh</b>
-								<li style="margin-top: 10px"><a href="#">Vở</a></li>
-								<li><a href="#">Bút</a></li>
-								<li><a href="#">Balo</a></li>
-								<li><a href="#">Nhãn vở</a></li>
-								<li><a href="#">Tẩy</a></li>
-							</ul>
-							<ul  type="none"><b>VPP văn phòng</b>
-						  		<li style="margin-top: 10px"><a href="#">Kẹp tài liệu</a></li>
-						  		<li><a href="#">Sổ tài liệu</a></li>
-						  		<li><a href="#">Bắn ghim</a></li>
-						  		<li><a href="#">Giấy note</a></li>
-						  		<li><a href="#">Giấy in</a></li>	
-						  
-						  </ul>
-							<ul  type="none"><b>Dụng cụ vẽ</b>
-						  		<li style="margin-top: 10px"><a href="#">Bút vẽ</a></li>
-								<li><a href="#">Màu vẽ</a></li>
-								<li><a href="#">Khay-cọ vẽ</a></li>
-								<li><a href="#">Tập vẽ-Giấy vẽ</a></li>
-								<li><a href="#">Khung vẽ</a></li>
-						  </ul>
-						    <ul  type="none"><b>Bút viết</b>
-						  		<li style="margin-top: 10px"><a href="#">Bút chì</a></li>
-								<li><a href="#">Bút bi</a></li>
-								<li><a href="#">Bút nước</a></li>
-								<li><a href="#">Bút lông</a></li>
-								<li><a href="#">Bút dạ quang</a></li>
-						  </ul>
-						    <ul  type="none"><b>Sản phẩm về giấy</b>
-						  		<li style="margin-top: 10px"><a href="#">Sổ các loại</a></li>
-								<li><a href="#">Tập vở</a></li>
-								<li><a href="#">Giấy note</a></li>
-								<li><a href="#">Sticker</a></li>
-								<li><a href="#">Nhãn vở-Nhãn tên</a></li>
-						  </ul>
-						  
-					  </ul>
-</div>
-					</div>
--->
 			<div class="col-md-2 py-2 text-white" style="background-color: #9c8350; margin-left: 12px;"><a href="Web2.php" style="color: #FFFFFF;"><i class="fa-solid fa-bars"></i>&nbsp;&nbsp;Danh mục sản phẩm</a></div>
 			<div class="col-4" style="line-height: 43px; margin-left: 15px"><i>Stationery lựa chọn số 1 cho bạn - Hãy đến với chúng tôi</i></div>
 			<div class="col-5">
