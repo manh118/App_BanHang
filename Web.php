@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Web</title>
+<title>Shop Dung Cu Hoc Tap</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">	
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	
@@ -50,10 +50,10 @@
 			<div class="col-md-4 py-2 ">
 				<form action="Tim_kiem.php?quanly=timkiem" method="get" style="display: flex;flex-direction: row;" autocomplete="off">
 				<div class="input-group">
-					<!-- <?php
+					 <?php
         // Lấy từ khóa từ URL nếu nó tồn tại
         $tukhoa = isset($_GET['tukhoa']) ? $_GET['tukhoa'] : '';
-        ?> -->
+        ?> 
 					<input type="text" class="form-control" placeholder="Tìm kiếm sản phẩm" aria-label="Recipient's username" aria-	describedby="basic-addon2" style="font-style: italic; opacity: 0.5" name="tukhoa">
   					<input type="submit" class="input-group-text" id="basic-addon2" value="Tìm kiếm" name="timkiem">
 					</div>					
