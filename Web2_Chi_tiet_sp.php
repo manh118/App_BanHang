@@ -33,7 +33,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 	<?php
-	$conn=mysqli_connect("localhost","root","") or die ("Không connect đc với máy chủ");//tạo kết nối với server
+	$conn=mysqli_connect("localhost","root","admin") or die ("Không connect đc với máy chủ");//tạo kết nối với server
 	mysqli_select_db($conn,"web") or die ("Không tìm thấy CSDL");// Tìm CSDL đề làm việc
 	
 	?>
@@ -105,13 +105,13 @@
 
 	
 	</section>
-	<section class="MyMainmenu" style="background-color: aliceblue ; siz" >
-	<div class="container">
+	<div class="MyMainmenu" style="background-color: aliceblue;" >
+<!--	margin-top:75.41px;-->
+	<div class="MyMainmenu-content" style="">
 		<div class="row">
-			
 			<div class="col-md-2 py-2 text-white" style="background-color: #9c8350; margin-left: 12px;"><a href="Web2.php" style="color: #FFFFFF;"><i class="fa-solid fa-bars"></i>&nbsp;&nbsp;Danh mục sản phẩm</a></div>
 			<div class="col-4" style="line-height: 43px; margin-left: 15px"><i>Stationery lựa chọn số 1 cho bạn - Hãy đến với chúng tôi</i></div>
-			<div class="col-md-5">
+			<div class="col-5">
 			<nav class="navbar navbar-expand-lg navbar-light " style="height: 40px;margin-left: 120px ">
   <div class="container-fluid">
     <a class="navbar-brand d-none" href="#">Navbar</a>
@@ -119,20 +119,11 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-			 <li class="nav-item">
-          <a class="nav-link Mau1 active" aria-current="page" href="#">Khuyến mãi</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link Mau1 active" href="#">Dịch vụ</a>
-        </li>
-		  <li class="nav-item">
-          <a class="nav-link Mau1 active" href="#">Tin tức</a>
-        </li>
-		  <li class="nav-item">
-          <a class="nav-link Mau1 active" href="#">Liên hệ</a>
-        </li>
-        
+      <ul class="navbar-nav">
+		 <li><a  href="#" style="color: #000000">Khuyến mãi</a></li>
+        <li ><a href="#" style="color: #000000">Dịch vụ</a></li>
+		  <li><a  href="TinTuc.php" style="color: #000000">Tin tức</a></li>
+		  <li><a  href="LienHe.php" style="color: #000000">Liên hệ</a></li> 
       </ul>
       
     </div>
@@ -143,7 +134,7 @@
 		
 		</div>
 	
-	</section>
+	</div>
 	<div class="DNTK">
 			<div class="text-content">
 				<i class="text1">Trang chủ / <i style="color: #E5C18C">Chi tiết sản phẩm</i></i>
