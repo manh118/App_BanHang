@@ -53,7 +53,7 @@
 					 <?php
         // Lấy từ khóa từ URL nếu nó tồn tại
         $tukhoa = isset($_GET['tukhoa']) ? $_GET['tukhoa'] : '';
-
+		?>
 					<input type="text" class="form-control" placeholder="Tìm kiếm sản phẩm hahaaa" aria-label="Recipient's username" aria-	describedby="basic-addon2" style="font-style: italic; opacity: 0.5" name="tukhoa">
 
   					<input type="submit" class="input-group-text" id="basic-addon2" value="Tìm kiếm" name="timkiem">
